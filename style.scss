@@ -1,0 +1,42 @@
+@import "boje";
+@import "reset";
+@import "media";
+@import "navbar";
+@import "main";
+
+
+
+body{
+    height: 100vh;
+
+}
+
+
+header{
+    height: 10vh;
+}
+
+h1,
+h2{
+    font-size: 4rem;
+}
+
+h1{
+    color: $lime;
+}
+
+.cta-button{
+    padding: 12px 24px;
+    background-color: $lime;
+    color: $light;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+
+    &:hover{
+        color: $light;
+        background-color: $orange;
+    }
+}
